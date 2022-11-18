@@ -1,0 +1,59 @@
+<!-- views/pages/auth.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/input.css">
+
+    <title>Login | Travel Up</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        padding-top: 70px;
+      }
+    </style>
+  </head>
+
+
+
+
+  <body class=" bg-slate-100">
+  <div class="flex mx-32 justify-center">
+    <div class=" w-1/2 flex flex-col justify-center items-center">
+      <div class="shadow-2xl  rounded-md">
+        <img src="../image/logo1.png" alt="">
+      </div>
+
+    </div>
+
+    <div class="w-1/2  ">
+      <div class="shadow-2xl rounded-md flex  flex-col py-8 items-center justify-center space-y-8 bg-zinc-300">
+        <input class="rounded-md py-2 w-3/4 px-7 shadow-2xl text-center" type="email" placeholder="Enter your Email">
+        <input class="rounded-md py-2 w-3/4 px-7 shadow-2xl text-center" type="password" placeholder="password">
+        <button class="bg-[#4285F4]  py-2 px-11 rounded-md text-white font-bold hover:bg-[#4285F4]/90 hover:text-gray-100">SIGN IN</button>
+        <!-- <h1>Sign in with <i class="fa-brands fa-facebook"></i></h1> -->
+        <div>
+          <p class="text-2xl font-serif font-bold"><U>OR</U></p>
+        </div>
+        <a href="/auth/google"><button type="button" class="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 mr-2 mb-2">
+          <svg class="mr-2 -ml-1 w-4 h-4" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"><path fill="currentColor" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg>
+          Sign in with Google
+          </button></a>
+      </div>
+    </div>
+
+  </div>
+  </body>
+</html>
